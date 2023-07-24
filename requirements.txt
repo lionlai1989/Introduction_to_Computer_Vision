@@ -1,9 +1,17 @@
 Pillow
 numpy
 matplotlib
+scipy
+Pillow
 
 # interactive
-jupyter
-ipykernel
-notebook
+# jupyter
+# ipykernel
+# notebook
 jupyterlab
+
+# 
+black
+
+# 
+opencv-python
