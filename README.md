@@ -5,7 +5,13 @@ In light of this perspective, this repository is my humble effort to reacquaint 
 
 ## Description
 
-### Georgia Tech
+### Georgia Tech CS4495/CS4476
+
+- []
+
+<!-- ### Georgia Tech 6476
+
+### Georgia Tech 7476 -->
 
 ### ETH Zürich
 
@@ -55,8 +61,15 @@ Any feedback, comments, and questions about this repository are welcome. However
 ## Acknowledgments
 Explore the inspiration and references listed here to further expand your knowledge and sharpen your skills.
 
-<!-- 
+- Georgia Tech CS4495/CS4476
 https://docs.google.com/spreadsheets/d/1ecUGIyhYOfQPi3HPXb-7NndrLgpX_zgkwsqzfqHPaus/pubhtml
+
+- Georgia Tech CS6476
+
+https://faculty.cc.gatech.edu/~hays/compvision2017/
+https://github.com/thelittlekid/CS7476/tree/master
+
+<!-- 
 
 Find time to do the assignments in the speard sheet above.
 
