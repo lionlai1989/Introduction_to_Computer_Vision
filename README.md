@@ -28,8 +28,8 @@ topic by implementing them from scratch.
   subtraction, and standardization.
 
   <div style="text-align:left">
-    <img src="./00-Images_as_Functions/images/green_channel_original.png" alt="Original Image" width="196" height="196">
-    <img src="./00-Images_as_Functions/images/green_channel_standardized.png" alt="Standardized Image" width="196" height="196">
+    <img src="./00-Images_as_Functions/images/green_channel_original.png" width="196" height="196">
+    <img src="./00-Images_as_Functions/images/green_channel_standardized.png" width="196" height="196">
     <p style="font-size: 14px; color: #777;">Left: Original image. Right: Image after standardization. Can you explain why it looks so gray?</p>
   </div>
 
