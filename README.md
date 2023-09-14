@@ -28,7 +28,7 @@ topic by implementing them from scratch.
   subtraction, and standardization.
 
   <figure float="left">
-  <img src="./00-Images_as_Functions/images/green_channel_original.png" width="256"/>
+  <img src="00-Images_as_Functions/images/green_channel_original.png" width="256"/>
   <img src="./00-Images_as_Functions/images/green_channel_standardized.png" width="256"/>
   <figcaption style="font-size: small;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</figcaption>
   </figure>
