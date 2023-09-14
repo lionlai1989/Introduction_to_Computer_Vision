@@ -27,7 +27,7 @@ topic by implementing them from scratch.
   and demonstrates fundamental image operations such as reading, writing, addition,
   subtraction, and standardization.
 
-<div style="text-align:left">
+<div style="text-align:center">
   <img src="./00-Images_as_Functions/images/green_channel_original.png" alt="Your Image Description" width="196" height="196">
   <img src="./00-Images_as_Functions/images/green_channel_standardized.png" alt="Your Image Description" width="196" height="196">
   <p style="font-size: 14px; color: #777;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</p>
