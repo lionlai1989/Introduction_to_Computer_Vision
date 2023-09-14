@@ -19,7 +19,13 @@ topic by implementing them from scratch.
 
 ### Table of Contents
 
-- [Images as Functions]():
+- [Images as Functions](): Images are not just collections of pixel values; they can be
+  represented as mathematical functions $f(x, y)$. This representation forms the
+  foundation for various mathematical operations, including filtering, Laplace/Fourier
+  transforms, and convolution. The initial notebook within this repository introduces
+  the notation used and demonstrates fundamental image operations such as reading,
+  writing, addition, subtraction, and standardization.
+
 - [Hough Transform]():
 - [Window-based Stereo Matching]():
 - [Stereo Geometry]():
