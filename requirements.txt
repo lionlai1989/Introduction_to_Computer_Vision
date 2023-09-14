@@ -2,7 +2,9 @@ Pillow
 numpy
 matplotlib
 scipy
-Pillow
+scikit-image
+networkx
+# rustworkx
 
 # interactive
 # jupyter
@@ -10,8 +12,8 @@ Pillow
 # notebook
 jupyterlab
 
-# 
-black
+# do not install black
+# black
 
 # 
 opencv-python
