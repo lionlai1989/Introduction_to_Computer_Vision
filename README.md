@@ -26,11 +26,13 @@ topic by implementing them from scratch.
   convolution. The initial notebook within this repository introduces the notation used
   and demonstrates fundamental image operations such as reading, writing, addition,
   subtraction, and standardization.
+
   <figure float="left">
   <img src="./00-Images_as_Functions/images/green_channel_original.png" width="256"/>
   <img src="./00-Images_as_Functions/images/green_channel_standardized.png" width="256"/>
   <figcaption style="font-size: small;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</figcaption>
   </figure>
+
 - [Hough Transform]():
 - [Window-based Stereo Matching]():
 - [Stereo Geometry]():
