@@ -20,18 +20,24 @@ topic by implementing them from scratch.
 ### Table of Contents
 
 - [Images as Functions](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/00-Images_as_Functions/images_as_functions.html):
-  Images are not just collections of pixel values; they can be represented as
-  mathematical functions $f(x, y)$. This representation forms the foundation for various
-  mathematical operations, including filtering, Laplace/Fourier transforms, and
-  convolution. The initial notebook within this repository introduces the notation used
-  and demonstrates fundamental image operations such as reading, writing, addition,
-  subtraction, and standardization.
-
+Images are not just collections of pixel values; they can be represented as mathematical
+functions $f(x, y)$. This representation forms the foundation for various mathematical
+operations, including filtering, Laplace/Fourier transforms, and convolution. The
+initial notebook within this repository introduces the notation used and demonstrates
+fundamental image operations such as reading, writing, addition, subtraction, and
+standardization.
+<!--
   <figure float="left">
   <img src="00-Images_as_Functions/images/green_channel_original.png" width="256"/>
   <img src="./00-Images_as_Functions/images/green_channel_standardized.png" width="256"/>
   <figcaption style="font-size: small;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</figcaption>
-  </figure>
+  </figure> -->
+
+<div style="text-align:left">
+  <img src="./00-Images_as_Functions/images/green_channel_original.png" alt="Your Image Description" width="256" height="256">
+  <img src="./00-Images_as_Functions/images/green_channel_standardized.png" alt="Your Image Description" width="256" height="256">
+  <p style="font-size: 14px; color: #777;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</p>
+</div>
 
 - [Hough Transform]():
 - [Window-based Stereo Matching]():
