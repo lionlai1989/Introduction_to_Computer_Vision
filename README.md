@@ -91,7 +91,7 @@ course contents, please refer to the following links:
 - Georgia Tech:
 
   - https://www.udacity.com/course/introduction-to-computer-vision--ud810
-  - https://cvg.ethz.ch/teaching/compvis/
+  - https://docs.google.com/spreadsheets/d/1ecUGIyhYOfQPi3HPXb-7NndrLgpX_zgkwsqzfqHPaus/pubhtml
 
 - ETH Zürich:
-  - https://docs.google.com/spreadsheets/d/1ecUGIyhYOfQPi3HPXb-7NndrLgpX_zgkwsqzfqHPaus/pubhtml
+  - https://cvg.ethz.ch/teaching/compvis/
