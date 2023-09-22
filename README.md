@@ -35,7 +35,18 @@ of the mathematical foundations behind each topic by implementing them from scra
   <p style="font-size: 14px; color: #777;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</p>
 </div>
 
--   [Hough Transform]():
+-   [Hough Transform](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Hough_Transform/hough_transform.html):
+
+    The Hough Transform is a feature extraction technique used for identifying imperfect
+    instances of objects within a specific class of shapes through a voting procedure.
+    In this tutorial, I use the Hough Transform to detect lines and circles within
+    images, resulting in the image displayed below as the final outcome.
+
+<div style="text-align:center">
+  <img src="./Hough_Transform/images/detected_lines_circles.png" alt="Your Image Description" width="256">
+  <p style="font-size: 14px; color: #777;">Detecing lines and circles with Hough transform.</p>
+</div>
+
 -   [Window-based Stereo Matching]():
 -   [Stereo Geometry]():
 -   [Lucas-Kanade Optical Flow]():
