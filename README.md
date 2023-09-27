@@ -31,8 +31,8 @@ fundamental image operations such as reading, writing, addition, subtraction, an
 standardization.
 
 <div style="text-align:center">
-  <img src="./00-Images_as_Functions/images/green_channel_original.png" alt="Your Image Description" width="196" height="196">
-  <img src="./00-Images_as_Functions/images/green_channel_standardized.png" alt="Your Image Description" width="196" height="196">
+  <img src="./00-Images_as_Functions/images/green_channel_original.png" alt="Your Image Description" width="256" height="256">
+  <img src="./00-Images_as_Functions/images/green_channel_standardized.png" alt="Your Image Description" width="256" height="256">
   <p style="font-size: 14px; color: #777;">Left: original image. Right: image after standardization. Can you explain that why it looks so gray?</p>
 </div>
 
@@ -44,15 +44,28 @@ this tutorial, I use the Hough Transform to detect lines and circles within imag
 resulting in the image displayed below as the final outcome.
 
 <div style="text-align:center">
-  <img src="./Hough_Transform/images/detected_lines_circles.png" alt="Your Image Description" width="256">
+  <img src="./Hough_Transform/images/detected_lines_circles.png" alt="Your Image Description" height="256">
   <p style="font-size: 14px; color: #777;">Detecing lines and circles with Hough transform.</p>
 </div>
 
-#### [Window-based Stereo Matching]():
+#### [Window-based Stereo Matching](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Window_based_Stereo_Matching/Window_based_Stereo_Matching.html):
+
+Stereo matching is a fundamental task in computer vision that aims to recover the depth
+information of a scene by comparing two or more images taken from slightly different
+viewpoints. One common approach to stereo matching is the window-based method, which
+relies on the concept of matching corresponding image regions to estimate disparities.
+
+<div style="text-align:center">
+  <img src="./Window_based_Stereo_Matching/images/statue_ground_truth.png" alt="Your Image Description" height="256">
+  <img src="./Window_based_Stereo_Matching/images/statue_disp.png" alt="Your Image Description" height="256">
+  <p style="font-size: 14px; color: #777;">Left: ground truth disparity. Right: disparity map generated with cosine similarity cost function.</p>
+</div>
 
 #### [Stereo Geometry]():
 
 #### [Lucas-Kanade Optical Flow]():
+
+#### [Particle Tracking]():
 
 ## Getting Started
 

@@ -2,6 +2,16 @@ import numpy as np
 from skimage import io, color
 
 
+def coord_is_valid(x_min, x_max, y_min, y_max, width, height):
+    if x_min < 0 or y_min < 0:
+        # print(f"x_min: {x_min}. y_min: {y_min}")
+        return False
+    if x_max >= width or y_max >= height:
+        # print(f"x_max: {x_max}. y_max: {y_max}")
+        return False
+    return True
+
+
 def read_image(input_path):
     # gray-image: MxN
     # RGB-image: MxNx3
@@ -55,50 +65,3 @@ def rescale_image(
     assert np.all(arr >= out_range[0])
     assert np.all(arr <= out_range[1])
     return arr
-
-
-def rescale_and_clip_raster(arr: np.ndarray, out_range=(0, 254), percentiles=1):
-    def clip(img, min, max):
-        assert img.ndim == 2
-        assert img.shape[0] > 3
-        assert img.shape[1] > 3
-        img[img < min] = min
-        img[img > max] = max
-        return img
-
-    assert np.any(arr == NO_DATA_VALUES[str(arr.dtype)]) == True
-    # valid_arr is an array whose nodata value are masked out
-    valid_arr = np.ma.masked_equal(arr, NO_DATA_VALUES[str(arr.dtype)])
-    assert np.any(valid_arr == NO_DATA_VALUES[str(arr.dtype)]) == False
-
-    minimum, maximum = np.percentile(
-        valid_arr.flatten(), (percentiles, 100 - percentiles)
-    )
-
-    # TODO: minimum must with the range of out_range.
-    if minimum <= out_range[0]:
-        minimum = out_range[0]
-
-    for i in range(arr.shape[0]):
-        arr[i, :, :] = clip(arr[i, :, :], min=minimum, max=maximum)
-
-    a = (out_range[1] - out_range[0]) / (maximum - minimum)
-    b = out_range[1] - a * maximum
-
-    arr = a * arr + b
-    return arr
-
-    """ Get disparity map from left and right image. navie implementation.
-    The disparity search method here is sometimes refer as winner takes all approach. 
-    I.e., the disparity value with the lowest SSD gets to be selected.  
-
-    Define the disparity range and maximum disparity value
-    # disparity_range = [-32, 32]
-    # max_disparity = disparity_range // 2
-
-    Args:
-        left_img (_type_): _description_
-        right_img (_type_): _description_
-        window_size (int, optional): 3, 5, 7 or 9. Defaults to 3.
-        disparity_range (tuple, optional): _description_. Defaults to (-32, 32).
-    """
