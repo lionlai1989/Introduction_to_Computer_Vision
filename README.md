@@ -16,8 +16,9 @@ This repository is organized by various computer vision topics. While some topic
 have connections (e.g., SIFT and RANSAC), they are discussed separately in different
 sections for pedagogical clarity. I utilize open-source Python packages like Numpy,
 Pillow, Scipy, scikit-image, etc. as needed, but it's important to note that
-**`OpenCV`** is intentionally prohibited. The aim here is to foster a deep understanding
-of the mathematical foundations behind each topic by implementing them from scratch.
+**`OpenCV`** is intentionally **prohibited**. The aim here is to foster a deep
+understanding of the mathematical foundations behind each topic by implementing them
+from scratch.
 
 ### Table of Contents
 
@@ -61,7 +62,26 @@ relies on the concept of matching corresponding image regions to estimate dispar
   <p style="font-size: 14px; color: #777;">Left: ground truth disparity. Right: disparity map generated with cosine similarity cost function.</p>
 </div>
 
-#### [Stereo Geometry]():
+#### [Stereo Geometry](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Stereo_Geometry/Stereo_Geometry.html):
+
+Understanding multiple view geometry is a fundamental prerequisite for comprehending 3D
+computer vision. In this tutorial, I explore the construction of camera projection
+matrices and fundamental matrices between two views, followed by a discussion on the
+rectification of stereo image pairs. My approach aligns with the algorithms detailed in
+the authoritative reference, "Multiple View Geometry in Computer Vision," enabling us to
+consult the original source for a comprehensive review of the material.
+
+<div style="text-align:center">
+  <img src="./Stereo_Geometry/images/epi_left.png" height="256">
+  <img src="./Stereo_Geometry/images/epi_right.png" height="256">
+  <p style="font-size: 14px; color: #777;">Left: Epipolar lines associated with 2D keypoints in the right image. Right: Epipolar lines associated with 2D keypoints in the left image. Notice that each epipolar line intersects precisely with its corresponding matching point, affirming the accuracy of the fundamental matrix estimation.</p>
+</div>
+
+<div style="text-align:center">
+  <img src="./Stereo_Geometry/images/rectified_left.png" height="256">
+  <img src="./Stereo_Geometry/images/rectified_right.png" height="256">
+  <p style="font-size: 14px; color: #777;">Left: Rectified left image. Right: Rectified right image. Notice that each epipolar line continues to precisely intersect its corresponding matching point, and they all remain parallel to the x-axis, converging at infinity. In other words, the epipoles are located at infinity.</p>
+</div>
 
 #### [Lucas-Kanade Optical Flow]():
 
@@ -125,11 +145,11 @@ Any feedback, comments, and questions about this repository are welcome.
 
 ## Acknowledgments
 
-The materials in this repository are primarily sourced from two courses: 'Introduction
-to Computer Vision' offered by Udacity and Georgia Tech, and 'Computer Vision' from ETH
-Zürich. It's essential to emphasize that I do not possess any ownership rights over the
-materials included in this repository. For a more in-depth exploration of the original
-course contents, please refer to the following links:
+The example images in this repository are primarily sourced from two courses:
+'Introduction to Computer Vision' offered by Udacity and Georgia Tech, and 'Computer
+Vision' from ETH Zürich. It's essential to emphasize that I do not possess ownership
+rights over the example images included in this repository. For a more in-depth
+exploration of the original course contents, please refer to the following links:
 
 -   Georgia Tech:
 
