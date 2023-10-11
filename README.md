@@ -83,7 +83,27 @@ consult the original source for a comprehensive review of the material.
   <p style="font-size: 14px; color: #777;">Left: Rectified left image. Right: Rectified right image. Notice that each epipolar line continues to precisely intersect its corresponding matching point, and they all remain parallel to the x-axis, converging at infinity. In other words, the epipoles are located at infinity.</p>
 </div>
 
-#### [Particle Filter for Object Tracking](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/):
+#### [Particle Filter for Object Tracking](https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Particle_Filter_for_Object_Tracking/Particle_Filter_for_Object_Tracking.ipynb):
+
+The extended and unscented Kalman filters struggle to handle scenarios involving
+multimodal probability distributions over the state. Particle filters, on the other
+hand, excel in modeling multimodal uncertainty by representing the probability density
+using a collection of particles within the state space.
+
+The brief video below illustrates the tracking process of Mitt Romney's face using a
+particle filter. In the upper-left corner, you can see the template used by the filter
+in each time step. Initially, particles are randomly distributed across the image.
+During the first 1 to 2 seconds, these particles exhibit rapid movement due to high
+process and observation noise. As more observations are made by comparing the template
+with the state of the particles, they gradually converge toward those with higher
+weights. Throughout the entire process, the process noise decreases from 50 to 20, while
+the observation noise decreases from 150 to 20. Importantly, the template is
+continuously updated with the state of the optimal particle.
+
+<div style="text-align:center">
+  <img src="./Particle_Filter_for_Object_Tracking/images/romney.gif">
+  <p style="font-size: 14px; color: #777;">Particle filter for tracking Mitt Romney's head position.</p>
+</div>
 
 ## Getting Started
 
