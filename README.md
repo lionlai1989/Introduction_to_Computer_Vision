@@ -83,7 +83,7 @@ consult the original source for a comprehensive review of the material.
   <p style="font-size: 14px; color: #777;">Left: Rectified left image. Right: Rectified right image. Notice that each epipolar line continues to precisely intersect its corresponding matching point, and they all remain parallel to the x-axis, converging at infinity.</p>
 </div>
 
-#### [Particle Filter for Object Tracking](https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Particle_Filter_for_Object_Tracking/Particle_Filter_for_Object_Tracking.ipynb):
+#### [Particle Filter for Object Tracking](https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Particle_Filter_for_Object_Tracking/Particle_Filter_for_Object_Tracking.html):
 
 The extended and unscented Kalman filters struggle to handle scenarios involving
 multimodal probability distributions over the state. Particle filters, on the other
@@ -104,6 +104,8 @@ updated with the state of the optimal particle.
   <img src="./Particle_Filter_for_Object_Tracking/images/romney.gif">
   <p style="font-size: 14px; color: #777;">Particle filter for tracking Mitt Romney's head position.</p>
 </div>
+
+#### [Reconstruction of 3D Models from Object Silhouettes]():
 
 ## Getting Started
 
