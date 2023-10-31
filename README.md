@@ -107,6 +107,12 @@ updated with the state of the optimal particle.
 
 #### [Reconstruction of 3D Models from Object Silhouettes]():
 
+<div style="text-align:center">
+  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_silhouette.gif">
+  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_3d.gif">
+  <p style="font-size: 14px; color: #777;">.</p>
+</div>
+
 ## Getting Started
 
 All the results in Jupyter Notebook can be reproduced by following the instructions
