@@ -105,12 +105,18 @@ updated with the state of the optimal particle.
   <p style="font-size: 14px; color: #777;">Particle filter for tracking Mitt Romney's head position.</p>
 </div>
 
-#### [Reconstruction of 3D Models from Object Silhouettes]():
+#### [Reconstruction of 3D Models from Object Silhouettes](https://htmlpreview.github.io/?https://github.com/lionlai1989/Introduction_to_Computer_Vision/blob/master/Reconstruction_of_3D_Models_from_Object_Silhouettes/Reconstruction_of_3D_Models_from_Object_Silhouettes.html):
+
+The reconstruction of a 3D model of the renowned David statue is completed. My approach
+utilizes the volumetric-based Shape-from-Silhouette method, as shown in the image below.
+Shape-from-Silhouette is a category of algorithms used for 3D model reconstruction,
+relying on object outlines to recover their shapes. This technique is particularly
+effective in controlled environments, such as studio scenarios.
 
 <div style="text-align:center">
-  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_silhouette.gif">
-  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_3d.gif">
-  <p style="font-size: 14px; color: #777;">.</p>
+  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_silhouette.gif" height="256">
+  <img src="./Reconstruction_of_3D_Models_from_Object_Silhouettes/images/david_3d.gif" height="256">
+  <p style="font-size: 14px; color: #777;">Reconstruction of 3D model using shape-from-silhouette.</p>
 </div>
 
 ## Getting Started
