@@ -119,6 +119,19 @@ effective in controlled environments, such as studio scenarios.
   <p style="font-size: 14px; color: #777;">Reconstruction of 3D model using shape-from-silhouette.</p>
 </div>
 
+#### [Dense Optical Flow with Gunnar Farnebäck's Algorithm](https://htmlpreview.github.io/?)
+
+Dense optical flow calculates the displacement vectors for every pixel between
+consecutive frames in a video. This method helps us to understand motion within videos
+by tracking the movement of pixels across frames. Its applications are in a variety of
+fields, including motion detection in surveillance videos and object tracking.
+
+<div style="text-align:center">
+  <img src="./Dense_Optical_Flow_Farneback/images/snatch.gif" height="256">
+  <img src="./Dense_Optical_Flow_Farneback/images/snatch_optical_flow.gif" height="256">
+  <p style="font-size: 14px; color: #777;">Dense optical flow using Farnebäck's algorithm.</p>
+</div>
+
 ## Getting Started
 
 All the results in Jupyter Notebook can be reproduced by following the instructions
